@@ -4,7 +4,7 @@ while(True):
     q=input()
     if "//" in q:
         x=q.split("//")
-        if ">" in x[0]:
+        if "->" in x[0]:
             x[0]=x[0].replace(">",".")
             x[0]=x[0].replace("-","")
     print(x[0]+"//"+x[1])
